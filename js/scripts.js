@@ -1,4 +1,4 @@
-
+var local=true;
 
 var myfonction = function(e) {
 	// alert(e.target.innerHTML);
@@ -8,7 +8,8 @@ var myfonction = function(e) {
 	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
 	// alert(rqt);
 	xhrep.open('GET', rqt);
-	//xhrep.open('GET', 'infoserie.xml');
+	if (local == true)
+	{xhrep.open('GET', 'infoserie.xml');}
 	xhrep.addEventListener('readystatechange', function() {
 							   // alert("function()(2)");
 							   if (xhrep.readyState === 4 && xhrep.status === 200)
@@ -70,7 +71,8 @@ var myfonction = function(e) {
 	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
 	// alert(rqt);
 	xhrep2.open('GET', rqt);
-	//xhrep2.open('GET', 'listeepisodes.xml');
+	if (local == true)
+	{xhrep2.open('GET', 'listeepisodes.xml');}
 	xhrep2.addEventListener('readystatechange', function() {
 								// alert("function()(2)");
 								if (xhrep2.readyState === 4 && xhrep2.status === 200)
@@ -83,20 +85,25 @@ var myfonction = function(e) {
 									}
 
 									// alert(e.type + "." + e.target.innerText); 
-									var listepisodes=document.createElement("ol");
+									var listepisodes=document.createElement("ul");
 									listepisodes.id = "lstEp";
 									listepisodes.className  = "lstEp";
 
+									var rownsaison=document.createElement('li');
+									var nbsaison=0;
+									var numsaison=0;
 									var rowxml = xhrep2.responseXML.getElementsByTagName('row');
 									for (var i = 0, c = rowxml.length; i < c; i++)
 									{
-										var row = document.createElement("tr");
+
+										var numep=0;
+										var row = document.createElement("ul");
 										row.className  = "elementslstEp";
 										var elerowxml = rowxml[i].children;
 
 										for (var ii = 0, cc = elerowxml.length; ii < cc; ii++)
-										{;
-											var elerow = document.createElement("td");
+										{
+											var elerow = document.createElement("li");
 											elerow.className  = "elementslstEp" + elerowxml[ii].nodeName;  
 											if (elerowxml[ii].childNodes.length > 0)
 											{
@@ -108,9 +115,42 @@ var myfonction = function(e) {
 											}
 											row.appendChild(elerow); 
 
+											if (elerowxml[ii].nodeName == "num_saison")
+											{
+												numsaison =  elerowxml[ii].innerHTML;
+											}
+											if (elerowxml[ii].nodeName == "num_episodes")
+											{
+												numep =  elerowxml[ii].innerHTML;
+											}
+										//	alert("|"+elerowxml[ii].nodeName+"|");
+		
 										}
-										listepisodes.appendChild(row);
+
+										if (nbsaison - numsaison<0)
+										{
+											if(nbsaison>0){
+												listepisodes.appendChild(rownsaison);
+												var rownsaison=document.createElement('li');
+											}
+											rownsaison.appendChild(document.createTextNode(numsaison));
+											nbsaison = numsaison;
+										}
+
+										var listeepi=document.createElement("ul");
+		var ep=document.createElement("li");
+		ep.appendChild(document.createTextNode(numep));
+		ep.appendChild(row);
+		listeepi.appendChild(ep);
+		rownsaison.appendChild(listeepi);
+	
+	//	rownsaison.appendChild(row);
+
+
 									}
+
+									listepisodes.appendChild(rownsaison);
+	
 									document.getElementById("listepisodes").appendChild(listepisodes);
 									/*
 									 * var myArraySerie = xhrep.responseXML.getElementsByTagName('nom');
@@ -139,8 +179,8 @@ var myfonction = function(e) {
 };
 
 //creation bandeau haut
-var elementsbandeau = document.createElement("td");
-elementsbandeau.class = "elementsbandeau9";
+var elementsbandeau = document.createElement("li");
+elementsbandeau.className = "elementsbandeau";
 elementsbandeau.appendChild(document.createTextNode("Git Pull"));
 elementsbandeau.addEventListener('click', elementsbandeaugitpull, false);
 document.getElementById("bandeauhaut").appendChild(elementsbandeau);
@@ -150,7 +190,8 @@ document.getElementById("bandeauhaut").appendChild(elementsbandeau);
 var Action = encodeURIComponent("ListeSeries"), Key = encodeURIComponent("null");
 var xhr = new XMLHttpRequest();
 xhr.open('GET', 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key);
-//xhr.open('GET', 'listeseries.xml');
+if (local == true)
+{xhr.open('GET', 'listeseries.xml');}
 xhr.addEventListener('readystatechange', function() {
 						 // alert("function()(1)");
 						 if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 0))
@@ -166,7 +207,7 @@ xhr.addEventListener('readystatechange', function() {
 								 row.appendChild(document.createTextNode(myArraySerie[i].childNodes[0].nodeValue));
 								 row.addEventListener('click', myfonction, false);
 								 document.getElementById("menulist").appendChild(row);
-							 
+
 							 }
 						 }
 						 else if (xhr.readyState == 4 && xhr.status != 200)
@@ -186,6 +227,7 @@ function htmlDecode(input) {
 	return e.childNodes[0].nodeValue;
 }
 
+//saut git pull
 var elementsbandeaugitpull = function(e) {
 	var Action = encodeURIComponent("exec"), Key = encodeURIComponent("cd /media/kitchen/source_code/GestionnaireDownloadInterface;git pull");
 	var xhrgitpull = new XMLHttpRequest();

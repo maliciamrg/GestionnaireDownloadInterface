@@ -7,12 +7,16 @@ body
 
 .bandeau  {
   width:100%;
+  min-width:400px;
 	font-size: 12pt;
 	border-bottom:thin dotted;
 }
 
 .elementsbandeau {
-	color:Red;
+  border: 1px solid Black;
+  background-color:Black
+	color:White;
+	padding:1%;
   }	
 
 .colonneGauche  {
@@ -33,9 +37,10 @@ body
 
 	/*margin:20px auto;*/
 .colonneDroite {
-	/*position:relative;*/
-	padding-left:20%;
-	width:70%;
+ /* position:relative;*/
+ border: 1px solid Black;
+ 	margin-left:20%;
+/*	width:70%;*/
 	font-size: 10pt;
 }
 
@@ -43,6 +48,7 @@ body
 	width:100%;
 	font-size: 14pt;
 }
+
 .date_maj_web {
 	font-size: 12pt;
 	margin:2%;
@@ -59,37 +65,42 @@ body
 }
 
 .Stat_Tableau {
-  
 }
 
 .listepisodes{
-  width:100%;
+  border: 1px solid Black;
+ 	margin-left:20%;
 }
 .lstEp{
+background:red;
+  
 }
 .elementslstEp {
 	color:red;
 }
+.elementslstEpserie {
+/*	display:none;*/
+}
 .elementslstEpnum_saison {
-	color:red;
+	color:Fuchsia;
 }
 .elementslstEpnum_episodes {
-	color:red;
+	color:Gray;
 }
 .elementslstEpsequentiel {
-	color:red;
+	color:Bisque;
 }
 .elementslstEpnom {
-	color:red;
+	color:LightBlue;
 }
 .elementslstEpairdate {
-	color:red;
+	color:BlueViolet;
 }
 .elementslstEpencours {
-	color:red;
+	color:Pink;
 }
 .elementslstEptimestamp_completer {
-	color:red;
+	color:Salmon;
 }
 
 	

@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<!--[if lt IE 9]>
+	<script
+	  src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
     <link href="css/styles.css" rel="stylesheet">
 	<title>Web Interface GestionnaireDownload</title>
+	<h1>liste des Series</h1>
+
   </head>
   <body>
-
-    <h1>liste des Series</h1>
-
-	<div id="bandeauhaut" class="bandeau" >
-	</div>
-	<div id="menu" class="colonneGauche" >
+	<nav>
+	  <ul id="bandeauhaut" class="bandeau" >
+	  </ul>
+	</nav>
+    <nav id="menu" class="colonneGauche" >
 	  <h2>Series</h2>
 	  <ul id="menulist" class="menulist"  ></ul>
-	</div>
-	<div id="contenu" class="colonneDroite">
+	</nav>
+	<section id="contenu" class="colonneDroite">
 	  <h2>
-	  <div id="nom" class="nom"></div>
+		<div id="nom" class="nom"></div>
 	  </h2>
-	  <div id="Stat_Image_Base64" class="Stat_Image_Base64"></div>
-	  <div id="date_maj_web" class="date_maj_web"></div>
-	  <div id="repertoire" class="repertoire"></div>	  
-	  <div id="Stat_Tableau" class="Stat_Tableau"></div>
-	  <div id="listepisodes" class="listepisodes"></div>
-	</div>
-	
+	  <aside>
+		<div id="Stat_Image_Base64" class="Stat_Image_Base64"></div>
+	  </aside>
+	  <article> 
+		<div id="date_maj_web" class="date_maj_web"></div>
+	    <div id="repertoire" class="repertoire"></div>	  
+		<div id="Stat_Tableau" class="Stat_Tableau"></div>
+	  </article>
+	</section>
+	<section id="listepisodes" class="listepisodes">
+	</section>
+
 	<script src="js/scripts.js"></script>
   </body>
+  <footer>
+  </footer>
 </html>		
