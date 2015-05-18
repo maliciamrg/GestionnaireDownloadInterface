@@ -29,7 +29,7 @@ switch ($action) {
         $query = "SELECT nom FROM series ";
         break;
     case "ListeEpisodes":
-        $query = "SELECT * FROM episodes WHERE serie = ''" . $key . "''";
+        $query = "SELECT * FROM episodes WHERE serie = '" . $key . "'";
         break;
     case "ListeHashs":
         $query = "SELECT * FROM hash ";
