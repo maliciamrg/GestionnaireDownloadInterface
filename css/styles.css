@@ -1,0 +1,21 @@
+body
+{
+  font-size: 20pt;
+}
+
+
+#menu  {
+	float:left;
+	width:15%;
+}
+	
+	
+#contenu {
+	margin:20px auto;
+	position:relative;
+	height:600px;
+	width:70%;
+}
+
+
+
