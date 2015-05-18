@@ -49,7 +49,7 @@ xhr.addEventListener('readystatechange', function() {
 		for (var i = 0, c = myArraySerie.length; i < c; i++)
 		{ 
 			var row = document.createElement("TR");
-			row.appendChild(document.createTextNode(myArraySerie[i]));
+			row.appendChild(document.createTextNode(myArraySerie[i].innerText));
 			row.addEventListener('click', myfonction,  false); 
 			document.getElementById("menu").appendChild(row);
 		}
@@ -58,7 +58,6 @@ xhr.addEventListener('readystatechange', function() {
         alert('Une erreur est survenue !\n\nCode :' + xhr.status + '\nTexte : ' + xhr.statusText);
 
     }
-	alert('<span>' + xhr.responseText + '</span>');
 
 }, false);
 xhr.send(null);
