@@ -49,7 +49,7 @@ xhr.addEventListener('readystatechange', function() {
 		for (var i = 0, c = myArraySerie.length; i < c; i++)
 		{ 
 			var row = document.createElement("TR");
-			row.appendChild(document.createTextNode(myArraySerie[i].innerText));
+			row.appendChild(document.createTextNode(myArraySerie[i].childNodes[0].nodeValue));
 			row.addEventListener('click', myfonction,  false); 
 			document.getElementById("menu").appendChild(row);
 		}
