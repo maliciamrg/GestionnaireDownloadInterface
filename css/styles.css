@@ -1,6 +1,6 @@
 body
 {
-  font-size: 20pt;
+  font-size: 15pt;
 }
 
 
@@ -16,7 +16,17 @@ body
 	position:relative;
 	height:600px;
 	width:70%;
+	font-size: 10pt;
 }
 
-
+#nom {
+	width:100%;
+	font-size: 14pt;
+}
+#Stat_Image_Base64 {
+	width:40%;
+}
+#Stat_Tableau {
+	width:60%;
+}
 

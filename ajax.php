@@ -7,8 +7,8 @@ echo "<?xml version=\"1.0\"?>\n";
 
 
 echo "<".$action.">\n";
-echo "<".$key.">\n";
-echo "</" .$key.">\n";
+//echo "<".htmlentities($key).">\n";
+//echo "</" .htmlentities($key).">\n";
 
 
 //on connecte a la BDD
@@ -23,13 +23,13 @@ mysql_select_db("seriedownload",$dblink);
 $query = "";
 switch ($action) {
     case "InfoSerie":
-        $query = "SELECT * FROM series WHERE nom = '" . $key . "'";
+        $query = "SELECT * FROM series WHERE nom = \"" . $key . "\"";
         break;
     case "ListeSeries":
         $query = "SELECT nom FROM series ";
         break;
     case "ListeEpisodes":
-        $query = "SELECT * FROM episodes WHERE serie = '" . $key . "'";
+        $query = "SELECT * FROM episodes WHERE serie = \"" . $key . "\"";
         break;
     case "ListeHashs":
         $query = "SELECT * FROM hash ";
@@ -46,7 +46,7 @@ if ($query != ""){
 	{
 		for ($i=0; $i<mysql_num_fields($result); $i++) {
 			$nomchamp = mysql_field_name($result,$i);
-			$text=preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $row[$i]);
+			$text=htmlentities($row[$i]);  /*preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $row[$i]);*/
 			echo "<".$nomchamp.">";
 			echo $text;
 			echo"</".$nomchamp.">\n";
@@ -55,3 +55,4 @@ if ($query != ""){
 }
 
 echo "</".$action.">\n";
+?>
