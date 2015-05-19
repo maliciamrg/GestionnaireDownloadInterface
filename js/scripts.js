@@ -77,7 +77,7 @@ var myfonction = function(e) {
 			listepisodes.id = "lstEp";
 			listepisodes.className  = "lstEp";
 			
-			var rowxml = xhrep.responseXML.getElementsByTagName('row');
+			var rowxml = xhrep2.responseXML.getElementsByTagName('row');
 			for (var i = 0, c = rowxml.length; i < c; i++) {
 				var row = document.createElement("tr");
 				row.className  = "elementslstEp";
