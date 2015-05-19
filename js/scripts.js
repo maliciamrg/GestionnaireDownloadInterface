@@ -120,7 +120,7 @@ var myfonction = function(e) {
 var elementsbandeau = document.createElement("td");
 elementsbandeau.class = "elementsbandeau";
 elementsbandeau.appendChild(document.createTextNode("Git Pull"));
-elementsbandeau.addEventListener('click', function(e) {}, false);
+elementsbandeau.addEventListener('click', elementsbandeaugitpull, false);
 document.getElementById("bandeauhaut").appendChild(elementsbandeau);
 
 			
