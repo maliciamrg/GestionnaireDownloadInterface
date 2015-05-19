@@ -160,7 +160,7 @@ function htmlDecode(input) {
 }
 
 var elementsbandeaugitpull = function(e) {
-	var Action = encodeURIComponent("gitpull"), Key = encodeURIComponent("null");
+	var Action = encodeURIComponent("exec"), Key = encodeURIComponent("cd /media/kitchen/source_code/GestionnaireDownloadInterface;git pull");
 	var xhrgitpull = new XMLHttpRequest();
 	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
 	xhrgitpull.open('GET', rqt);

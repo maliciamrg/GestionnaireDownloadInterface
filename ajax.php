@@ -1,12 +1,6 @@
 <?php
 $action = $_GET["action"];
 $key =  $_GET["key"];
-header('Content-type: text/xml'); 
-echo "<?xml version=\"1.0\"?>\n";
-
-
-
-echo "<".$action.">\n";
 //echo "<".htmlentities($key).">\n";
 //echo "</" .htmlentities($key).">\n";
 
@@ -34,21 +28,17 @@ switch ($action) {
     case "ListeHashs":
         $query = "SELECT * FROM hash ";
         break;
-    case "gitpull":
-        echo exec('cd /media/kitchen/source_code/GestionnaireDownloadInterface;git pull');
-        break;
-    case "whoami":
-        echo exec('whoami');
-        break;
     case "exec":
         echo exec($key);
         break;
-        
     default:
         break;
 }
 
 if ($query != ""){
+	header('Content-type: text/xml'); 
+	echo "<?xml version=\"1.0\"?>\n";
+	echo "<".$action.">\n";
 	//Mise en forme resultat
 	$result = mysql_query($query,$dblink) or die (mysql_error($dblink));
 	//On boucle sur le resultat
@@ -64,7 +54,6 @@ if ($query != ""){
 		}
 		echo "</row>";
 	}
+	echo "</".$action.">\n";
 }
-
-echo "</".$action.">\n";
 ?>
