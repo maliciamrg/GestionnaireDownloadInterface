@@ -4,6 +4,14 @@ body
 }
 
 
+bandeau  {
+	float:left;
+	width:15%;
+	font-size: 12pt;
+}
+elementsbandeau {
+	color:red;
+}	
 colonneGauche  {
 	float:left;
 	width:15%;

@@ -116,8 +116,16 @@ var myfonction = function(e) {
 	// alert(this.innerText);
 };
 
-var Action = encodeURIComponent("ListeSeries"), Key = encodeURIComponent("null");
+//creation bandeau haut
+var elementsbandeau = document.createElement("td");
+elementsbandeau.class = "elementsbandeau";
+elementsbandeau.appendChild(document.createTextNode("Git Pull"));
+elementsbandeau.addEventListener('click', function(e) {}, false);
+document.getElementById("bandeauhaut").appendChild(elementsbandeau);
 
+			
+//creation liste serie
+var Action = encodeURIComponent("ListeSeries"), Key = encodeURIComponent("null");
 var xhr = new XMLHttpRequest();
 xhr.open('GET', 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key);
 xhr.addEventListener('readystatechange', function() {
@@ -144,8 +152,26 @@ xhr.addEventListener('readystatechange', function() {
 }, false);
 xhr.send(null);
 
+
 function htmlDecode(input) {
 	var e = document.createElement('div');
 	e.innerHTML = input;
 	return e.childNodes[0].nodeValue;
 }
+
+var elementsbandeaugitpull = function(e) {
+	var Action = encodeURIComponent("gitpull"), Key = encodeURIComponent("null");
+	var xhrgitpull = new XMLHttpRequest();
+	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
+	xhrgitpull.open('GET', rqt);
+	xhrgitpull.addEventListener('readystatechange', function() {
+		if (xhrgitpull.readyState === 4 && xhrgitpull.status === 200) {
+			alert('Git Pull' + xhrgitpull.responseText);
+			document.reload();
+		} else if (xhrgitpull.readyState == 4 && xhrgitpull.status != 200) { 
+			alert('Une erreur est survenue !\n\nCode :' + xhrgitpull.status + '\nTexte : ' + xhrgitpull.statusText);
+		}
+	}, false);
+	xhrep.send(null);
+
+};

@@ -34,6 +34,9 @@ switch ($action) {
     case "ListeHashs":
         $query = "SELECT * FROM hash ";
         break;
+    case "gitpull":
+        echo exec('cd /media/kitchen/source_code/GestionnaireDownloadInterface;git pull');
+        break;
     default:
         break;
 }
