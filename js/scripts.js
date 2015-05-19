@@ -69,16 +69,24 @@ var myfonction = function(e) {
 			}
 
 			// alert(e.type + "." + e.target.innerText); 
-			var listepisodes=document.createElement("div");
+			var listepisodes=document.createElement("ol");
 			listepisodes.id = "lstEp";
-			
+			listepisodes.class = "lstEp";
 			// alert(xhrep.readyState + "-" + xhrep.status + "-" +
 			// xhrep.getResponseHeader('Content-type'));
 			// alert(xhrep.responseText);
-			var myArrayEpisodes = xhrep2.responseXML.getElementsByTagName('nom');
-			for (var i = 0, c = myArrayEpisodes.length; i < c; i++) {
-				var row = document.createElement("TR");
-				row.appendChild(document.createTextNode(myArrayEpisodes[i].childNodes[0].nodeValue));
+			var rowxml = xhrep2.responseXML.getElementsByTagName('row');
+			for (var i = 0, c = rowxml.length; i < c; i++) {
+				var row = document.createElement("li");
+				row.class = "elementslstEp";
+				
+				var elerowxml = rowxml[i].childNodes;
+				for (var ii = 0, cc = elerowxml.length; ii < cc; ii++) {
+					var elerow = document.createElement("td");
+					elerow.class = "elementslstEp"+elerow.id;
+					elerow.appendChild(document.createTextNode(elerowxml[i].childNodes[0].nodeValue));
+				}
+				
 				listepisodes.appendChild(row);
 			}
 
@@ -121,10 +129,11 @@ xhr.addEventListener('readystatechange', function() {
 		var myArraySerie = xhr.responseXML.getElementsByTagName('nom');
 		// var myArraySerie = ['s1','s2','s3','s4'];
 		for (var i = 0, c = myArraySerie.length; i < c; i++) {
-			var row = document.createElement("TR");
+			var row = document.createElement("li");
+			row.class = "elementsmenulist";
 			row.appendChild(document.createTextNode(myArraySerie[i].childNodes[0].nodeValue));
 			row.addEventListener('mouseover', myfonction, false);
-			document.getElementById("menu").appendChild(row);
+			document.getElementById("menulist").appendChild(row);
 		}
 	} else if (xhr.readyState == 4 && xhr.status != 200) { // En cas d'erreur !
 

@@ -44,13 +44,15 @@ if ($query != ""){
 	//On boucle sur le resultat
 	while ($row = mysql_fetch_array($result, MYSQL_NUM))
 	{
-		for ($i=0; $i<mysql_num_fields($result); $i++) {
+		echo "<row>";
+					for ($i=0; $i<mysql_num_fields($result); $i++) {
 			$nomchamp = mysql_field_name($result,$i);
 			$text=htmlentities($row[$i]);  /*preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $row[$i]);*/
 			echo "<".$nomchamp.">";
 			echo $text;
 			echo"</".$nomchamp.">\n";
 		}
+		echo "</row>";
 	}
 }
 
