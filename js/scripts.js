@@ -83,8 +83,8 @@ var myfonction = function(e) {
 				var row = document.createElement("li");
 				row.class = "elementslstEp";
 				
-				var elerowxml = rowxml[i].childNodes;
-				alert(elerowxml.length);
+				var elerowxml = rowxml[i].children;
+				alert(elerowxml.length + "-" +elerowxml[i].id);
 				for (var ii = 0, cc = elerowxml.length; ii < cc; ii++) {
 					var elerow = document.createElement("td");
 					elerow.class = "elementslstEp"+elerowxml[i].id;
