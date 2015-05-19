@@ -37,6 +37,13 @@ switch ($action) {
     case "gitpull":
         echo exec('cd /media/kitchen/source_code/GestionnaireDownloadInterface;git pull');
         break;
+    case "whoami":
+        echo exec('whoami');
+        break;
+    case "ls":
+        echo exec('cd /media/kitchen/source_code/GestionnaireDownloadInterface;ls');
+        break;
+        
     default:
         break;
 }
