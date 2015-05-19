@@ -54,6 +54,8 @@ var myfonction = function(e) {
 	}, false);
 	xhrep.send(null);
 
+
+//liste episodes
 	var Action = encodeURIComponent("ListeEpisodes"), Key = encodeURIComponent(e.target.innerHTML);
 	var xhrep2 = new XMLHttpRequest();
 	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
@@ -76,14 +78,16 @@ var myfonction = function(e) {
 			// xhrep.getResponseHeader('Content-type'));
 			// alert(xhrep.responseText);
 			var rowxml = xhrep2.responseXML.getElementsByTagName('row');
+			alert(rowxml.length);
 			for (var i = 0, c = rowxml.length; i < c; i++) {
 				var row = document.createElement("li");
 				row.class = "elementslstEp";
 				
 				var elerowxml = rowxml[i].childNodes;
+				alert(elerowxml.length);
 				for (var ii = 0, cc = elerowxml.length; ii < cc; ii++) {
 					var elerow = document.createElement("td");
-					elerow.class = "elementslstEp"+elerow.id;
+					elerow.class = "elementslstEp"+elerowxml[i].id;
 					elerow.appendChild(document.createTextNode(elerowxml[i].childNodes[0].nodeValue));
 				}
 				
