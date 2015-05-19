@@ -1,3 +1,5 @@
+
+
 var myfonction = function(e) {
 	// alert(e.target.innerHTML);
 	var Action = encodeURIComponent("InfoSerie"), Key = encodeURIComponent(e.target.innerHTML);
@@ -73,29 +75,28 @@ var myfonction = function(e) {
 			// alert(e.type + "." + e.target.innerText); 
 			var listepisodes=document.createElement("ol");
 			listepisodes.id = "lstEp";
-			listepisodes.class = "lstEp";
-			// alert(xhrep.readyState + "-" + xhrep.status + "-" +
-			// xhrep.getResponseHeader('Content-type'));
-			// alert(xhrep.responseText);
-			var rowxml = xhrep2.responseXML.getElementsByTagName('row');
-			alert(rowxml.length);
+			listepisodes.className  = "lstEp";
+			
+			var rowxml = xhrep.responseXML.getElementsByTagName('row');
 			for (var i = 0, c = rowxml.length; i < c; i++) {
-				var row = document.createElement("li");
-				row.class = "elementslstEp";
-				
+				var row = document.createElement("tr");
+				row.className  = "elementslstEp";
 				var elerowxml = rowxml[i].children;
-				alert(elerowxml.length + "-" +elerowxml[i].id);
-				for (var ii = 0, cc = elerowxml.length; ii < cc; ii++) {
+			
+				for (var ii = 0, cc = elerowxml.length; ii < cc; ii++) {;
 					var elerow = document.createElement("td");
-					elerow.class = "elementslstEp"+elerowxml[i].id;
-					elerow.appendChild(document.createTextNode(elerowxml[i].childNodes[0].nodeValue));
+					elerow.className  = "elementslstEp"+elerowxml[ii].nodeName;  
+					if (elerowxml[ii].childNodes.length>0){
+						elerow.appendChild(document.createTextNode(elerowxml[ii].innerHTML));//childNodes[0].nodeValue));
+					}else {
+						elerow.appendChild(document.createTextNode("_"));//childNodes[0].nodeValue));
+					}
+							row.appendChild(elerow); 
+			
 				}
-				
 				listepisodes.appendChild(row);
 			}
-
 			document.getElementById("listepisodes").appendChild(listepisodes);
-			
 			/*
 			 * var myArraySerie = xhrep.responseXML.getElementsByTagName('nom');
 			 * //var myArraySerie = ['s1','s2','s3','s4']; for (var i = 0, c =
@@ -179,3 +180,4 @@ var elementsbandeaugitpull = function(e) {
 	xhrep.send(null);
 
 };
+
