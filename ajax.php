@@ -30,7 +30,9 @@ switch ($action) {
         break;
     case "exec":
         exec($key,$op);
+        echo "<pre>";
         print_r($op);
+        echo "</pre>";
         break;
     default:
         break;
