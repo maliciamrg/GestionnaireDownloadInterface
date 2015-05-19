@@ -29,7 +29,8 @@ switch ($action) {
         $query = "SELECT * FROM hash ";
         break;
     case "exec":
-        echo exec($key);
+        exec($key,$op);
+        print_r($op);
         break;
     default:
         break;
