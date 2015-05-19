@@ -132,7 +132,7 @@ xhr.addEventListener('readystatechange', function() {
 			var row = document.createElement("li");
 			row.class = "elementsmenulist";
 			row.appendChild(document.createTextNode(myArraySerie[i].childNodes[0].nodeValue));
-			row.addEventListener('mouseover', myfonction, false);
+			row.addEventListener('click', myfonction, false);
 			document.getElementById("menulist").appendChild(row);
 		}
 	} else if (xhr.readyState == 4 && xhr.status != 200) { // En cas d'erreur !
