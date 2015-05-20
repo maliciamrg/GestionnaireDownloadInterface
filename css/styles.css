@@ -1,82 +1,94 @@
 body
 {
   font-size: 15pt;
+  background-color:Beige;
 }
 
 
-bandeau  {
-	float:left;
-	width:15%;
+.bandeau  {
+  width:100%;
 	font-size: 12pt;
+	border-bottom:thin dotted;
 }
-elementsbandeau {
-	color:red;
-}	
-colonneGauche  {
-	float:left;
+
+.elementsbandeau {
+	color:Red;
+  }	
+
+.colonneGauche  {
+	/*float:left;*/
+	position:absolute;
 	width:15%;
 	font-size: 10pt;
 }
 	
-menulist {
+.menulist {
 	color:red;
 }	
-elementsmenulist {
-	color:red;
+.elementsmenulist {
+  background-color:White;
+  border-right:1em solid Black;
+  color:Blue;
 }
-	
-colonneDroite {
-	margin:20px auto;
-	position:relative;
-	height:600px;
+
+	/*margin:20px auto;*/
+.colonneDroite {
+	/*position:relative;*/
+	padding-left:20%;
 	width:70%;
 	font-size: 10pt;
 }
 
-nom {
+.nom {
 	width:100%;
 	font-size: 14pt;
 }
-date_maj_web {
-	width:40%;
+.date_maj_web {
+	font-size: 12pt;
+	margin:2%;
+	text-align:justify;
+	color:BlueViolet;
+	font-weight:bold;
 }
-repertoire {
-	width:40%;
+.repertoire {
+	font-size: 10pt;
+	margin:2%;
 }
-Stat_Image_Base64 {
-	width:40%;
+.Stat_Image_Base64 {
+	float:right;
 }
-Stat_Tableau {
-	width:60%;
+
+.Stat_Tableau {
+  
 }
-listepisodes{
-	width:60%;
+
+.listepisodes{
+  width:100%;
 }
-lstEp{
-	width:60%;
+.lstEp{
 }
-elementslstEp {
+.elementslstEp {
 	color:red;
 }
-elementslstEpnum_saison {
+.elementslstEpnum_saison {
 	color:red;
 }
-elementslstEpnum_episodes {
+.elementslstEpnum_episodes {
 	color:red;
 }
-elementslstEpsequentiel {
+.elementslstEpsequentiel {
 	color:red;
 }
-elementslstEpnom {
+.elementslstEpnom {
 	color:red;
 }
-elementslstEpairdate {
+.elementslstEpairdate {
 	color:red;
 }
-elementslstEpencours {
+.elementslstEpencours {
 	color:red;
 }
-elementslstEptimestamp_completer {
+.elementslstEptimestamp_completer {
 	color:red;
 }
 
