@@ -42,8 +42,11 @@ if ($query != ""){
 	header('Content-type: text/xml'); 
 	echo "<?xml version=\"1.0\"?>\n";
 	echo "<".$action.">\n";
+	echo "<query>\n";
+	echo $query;
+	echo "</query>\n";
 	//Mise en forme resultat
-	$result = mysql_query($query,$dblink) or die (mysql_error($dblink));
+	$result = mysql_query(html_entity_decode($query),$dblink) or die (mysql_error($dblink));
 	//On boucle sur le resultat
 	while ($row = mysql_fetch_array($result, MYSQL_NUM))
 	{

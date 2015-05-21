@@ -8,7 +8,7 @@ var myfonction = function(e) {
 	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
 	// alert(rqt);
 	xhrep.open('GET', rqt);
-	xhrep.open('GET', 'infoserie.xml');
+	//xhrep.open('GET', 'infoserie.xml');
 	xhrep.addEventListener('readystatechange', function() {
 							   // alert("function()(2)");
 							   if (xhrep.readyState === 4 && xhrep.status === 200)
@@ -70,7 +70,7 @@ var myfonction = function(e) {
 	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
 	// alert(rqt);
 	xhrep2.open('GET', rqt);
-	xhrep2.open('GET', 'listeepisodes.xml');
+	//xhrep2.open('GET', 'listeepisodes.xml');
 	xhrep2.addEventListener('readystatechange', function() {
 								// alert("function()(2)");
 								if (xhrep2.readyState === 4 && xhrep2.status === 200)
@@ -149,8 +149,8 @@ document.getElementById("bandeauhaut").appendChild(elementsbandeau);
 //creation liste serie
 var Action = encodeURIComponent("ListeSeries"), Key = encodeURIComponent("null");
 var xhr = new XMLHttpRequest();
-//xhr.open('GET', 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key);
-xhr.open('GET', 'listeseries.xml');
+xhr.open('GET', 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key);
+//xhr.open('GET', 'listeseries.xml');
 xhr.addEventListener('readystatechange', function() {
 						 // alert("function()(1)");
 						 if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 0))
