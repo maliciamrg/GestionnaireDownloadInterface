@@ -71,15 +71,18 @@ body
   border: 1px solid Black;
  	margin-left:20%;
 }
-.lstEp{
-background:red;
-  
+.lstEp h4{
+background:red; 
+}
+.elementslistepi{
+display:none;  
 }
 .elementslstEp {
+  display:none;
 	color:red;
 }
 .elementslstEpserie {
-/*	display:none;*/
+	display:none
 }
 .elementslstEpnum_saison {
 	color:Fuchsia;
@@ -103,4 +106,54 @@ background:red;
 	color:Salmon;
 }
 
-	
+.menu { 
+ font-family: Helvetica, Arial, "Lucida Grande", sans-serif;  
+line-height: 1.5;  
+margin: 50px auto; 
+/*for display only*/ 
+ width: 200px;  
+-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);   
+  -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+         box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+/*ul Styles*/
+
+  /*ul Styles*/
+  .elementslstEp ul { 
+   background: #fff;  
+  font-size: 13px; 
+   line-height: 30px;
+    height: 0px; 
+   list-style-type: none;
+    overflow: hidden; 
+   padding: 0px;   
+    /*Animation*/  
+  -webkit-transition: height 1s ease;   
+    -moz-transition: height 1s ease;   
+      -o-transition: height 1s ease;   
+     -ms-transition: height 1s ease;   
+         transition: height 1s ease;
+  }
+  
+  .lstEp:hover ul { 
+   height: 93px;
+  }
+  
+/*ul Styles*/
+.lstEp ul { 
+ background: #fff;  
+font-size: 13px; 
+ line-height: 30px; 
+ list-style-type: none;  
+overflow: hidden; 
+ padding: 0px;
+} 
+
+ /*li Styles*/
+.lstEp li {
+    border-bottom: 1px solid #eee;
+  } 
+  
+  .lstEp li:hover {  
+  background: #eee;
+  }

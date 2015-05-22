@@ -133,13 +133,22 @@ var myfonction = function(e) {
 												listepisodes.appendChild(rownsaison);
 												var rownsaison=document.createElement('li');
 											}
-											rownsaison.appendChild(document.createTextNode(numsaison));
+											
+											var tits = document.createElement("h4");	
+											tits.appendChild(document.createTextNode("saison "+numsaison));
+											rownsaison.appendChild(tits);
+											
 											nbsaison = numsaison;
 										}
 
 										var listeepi=document.createElement("ul");
+											listeepi.className  = "elementslistepi";
+									
 		var ep=document.createElement("li");
-		ep.appendChild(document.createTextNode(numep));
+		var tite = document.createElement("h5");	
+											tite.appendChild(document.createTextNode("episode "+numep));
+		
+		ep.appendChild(tite);
 		ep.appendChild(row);
 		listeepi.appendChild(ep);
 		rownsaison.appendChild(listeepi);
