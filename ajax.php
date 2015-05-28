@@ -28,6 +28,9 @@ switch ($action) {
     case "ListeHashs":
         $query = "SELECT * FROM hash ";
         break;
+    case "ListeQuestion":
+        $query = "SELECT * FROM question where champreponse is null ";
+        break;
     case "exec":
         $op = shell_exec($key);
         echo "<pre>";
