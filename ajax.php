@@ -29,7 +29,7 @@ switch ($action) {
         $query = "SELECT * FROM hash ";
         break;
     case "ListeQuestion":
-        $query = "SELECT * FROM question where champreponse is null ";
+        $query = "SELECT * FROM question where champsreponse is null ";
         break;
     case "exec":
         $op = shell_exec($key);
