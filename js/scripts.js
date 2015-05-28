@@ -1,10 +1,16 @@
-var local = true;
+var local = false;
 var xhr = new XMLHttpRequest();
 var xhrep = new XMLHttpRequest();
 var xhrep2 = new XMLHttpRequest();
 var xhrgitpull = new XMLHttpRequest();
 
 var elementsmenulistfonction = infoseriefonction;
+
+document.getElementsByClassName("listepisodesserie")[0].style.display = "none"
+document.getElementsByClassName("listepisodesserie")[0].getElementsByClassName("rownsaison")[0].style.display = "none";
+document.getElementsByClassName("listepisodesserie")[0].getElementsByClassName("rownsaison")[0].getElementsByClassName("rowepisode")[0].style.display = "none";
+document.getElementById("infoserie").style.display = 'none';
+document.getElementById("listepisodes").style.display = 'none';
 
 // creation bandeau haut
 // var elementsbandeau = document.createElement("li");
@@ -13,10 +19,39 @@ var elementsmenulistfonction = infoseriefonction;
 // elementsbandeau.addEventListener('click', elementsbandeaugitpull, false);
 
 var elementsbandeau = document.getElementsByClassName("elementsbandeau")[0];
-var elementsbandeauGitPull = elementsbandeau.cloneNode(true);
-elementsbandeauGitPull.appendChild(document.createTextNode("Git Pull"));
-elementsbandeauGitPull.addEventListener('click', elementsbandeaugitpullfonction, false);
+elementsbandeau.style.display = 'none';
 
+/*elements menus*/
+var elementsbandeauSeries = elementsbandeau.cloneNode(true);
+elementsbandeauSeries.style.display = 'block';
+var elementsbandeauSeriesa = document.createElement("a");
+elementsbandeauSeriesa.appendChild(document.createTextNode("Series"));
+elementsbandeauSeries.appendChild(elementsbandeauSeriesa);
+elementsbandeauSeries.addEventListener('click', elementsbandeauSeriesfonction, false);
+document.getElementById("bandeauhaut").appendChild(elementsbandeauSeries);
+
+var elementsbandeauQuestions = elementsbandeau.cloneNode(true);
+elementsbandeauQuestions.style.display = 'block';
+var elementsbandeauQuestionsa = document.createElement("a");
+elementsbandeauQuestionsa.appendChild(document.createTextNode("Questions"));
+elementsbandeauQuestions.appendChild(elementsbandeauQuestionsa);
+elementsbandeauQuestions.addEventListener('click', elementsbandeauQuestionsfonction, false);
+document.getElementById("bandeauhaut").appendChild(elementsbandeauQuestions);
+
+var elementsbandeauHash = elementsbandeau.cloneNode(true);
+elementsbandeauHash.style.display = 'block';
+var elementsbandeauHasha = document.createElement("a");
+elementsbandeauHasha.appendChild(document.createTextNode("Hash"));
+elementsbandeauHash.appendChild(elementsbandeauHasha);
+elementsbandeauHash.addEventListener('click', elementsbandeauHashfonction, false);
+document.getElementById("bandeauhaut").appendChild(elementsbandeauHash);
+
+var elementsbandeauGitPull = elementsbandeau.cloneNode(true);
+elementsbandeauGitPull.style.display = 'block';
+var elementsbandeauGitPulla = document.createElement("a");
+elementsbandeauGitPulla.appendChild(document.createTextNode("Git Pull"));
+elementsbandeauGitPull.appendChild(elementsbandeauGitPulla);
+elementsbandeauGitPull.addEventListener('click', elementsbandeauGitPullfonction, false);
 document.getElementById("bandeauhaut").appendChild(elementsbandeauGitPull);
 
 // creation liste serie
@@ -28,15 +63,18 @@ if (local == true) {
 xhr.addEventListener('readystatechange', listeSerieFonction, false);
 xhr.send(null);
 
+function elementsbandeauSeriesfonction(){}
+function elementsbandeauQuestionsfonction(){}
+function elementsbandeauHashfonction() {}
 // saut git pull
-function elementsbandeaugitpullfonction(e) {
+function elementsbandeauGitPullfonction(e) {
 	var Action = encodeURIComponent("exec"), Key = encodeURIComponent("cd /media/kitchen/source_code/GestionnaireDownloadInterface;git pull");
 	var rqt = 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key;
 	xhrgitpull.open('GET', rqt);
 	xhrgitpull.addEventListener('readystatechange', gitpullfonction, false);
 	xhrep.send(null);
-
 };
+
 
 function gitpullfonction() {
 	if (xhrgitpull.readyState === 4 && xhrgitpull.status === 200) {
@@ -68,6 +106,7 @@ function listeSerieFonction() {
 			// document.getElementById("menulist").appendChild(row);
 
 		}
+		elementsmenulist.style.display = 'none';
 	} else if (xhr.readyState == 4 && xhr.status != 200) { // En cas d'erreur !
 
 		alert('Une erreur est survenue !\n\nCode :' + xhr.status + '\nTexte : ' + xhr.statusText);
@@ -109,7 +148,8 @@ function infoseriefonctiondetail() {
 		// alert(xhrep.readyState + "-" + xhrep.status + "-" +
 		// xhrep.getResponseHeader('Content-type'));
 		// alert(xhrep.responseText);
-		var champspossible = document.getElementById("contenu").getElementsByTagName('div');
+		document.getElementById("infoserie").style.display = 'block';
+		var champspossible = document.getElementById("infoserie").getElementsByTagName('div');
 		for (var i = 0, c = champspossible.length; i < c; i++) {
 			// alert(champspossible[i].id);
 			var champ = champspossible[i].id;
@@ -154,6 +194,10 @@ function listeepisodesfonction() {
 	// alert("function()(2)");
 	if (xhrep2.readyState === 4 && xhrep2.status === 200) {
 
+		document.getElementById("listepisodes").style.display = 'block';
+		
+		var listepisodesserie =document.getElementsByClassName("listepisodesserie")[0];
+		
 		var asupp = document.getElementById("listepisodesserieencours");
 		if (asupp != null) {
 			asupp.parentNode.removeChild(asupp);
@@ -169,16 +213,17 @@ function listeepisodesfonction() {
 		var numsaison = 0;
 		var numsaisonprev = 0;
 
-		var listepisodesserieencours = document.getElementsByClassName("listepisodesserie")[0].cloneNode(true);
+		var listepisodesserieencours = listepisodesserie.cloneNode(true);
+		listepisodesserieencours.style.display = 'block';
 		listepisodesserieencours.id = "listepisodesserieencours"
 
-		var rowsaisonencours = listepisodesserieencours.getElementsByClassName("rownsaison")[0];
-
+		var rowsaisonencours = listepisodesserieencours.getElementsByClassName("rownsaison")[0].cloneNode(true);
+		
 		var rowxml = xhrep2.responseXML.getElementsByTagName('row');
 		for (var i = 0, c = rowxml.length; i < c; i++) {
 
 			var rowepisodeencours  = rowsaisonencours.getElementsByClassName("rowepisode")[0].cloneNode(true);
-
+			rowepisodeencours.style.display = 'block';
 			/*
 			 * var numep = 0; var row = document.createElement("ul");
 			 * row.className = "elementEp";
@@ -208,7 +253,10 @@ function listeepisodesfonction() {
 					numsaison = elerowxml[ii].innerHTML;
 				}
 				if (elerowxml[ii].nodeName == "num_episodes") {
-					rowepisodeencours.children[0].appendChild(document.createTextNode(elerowxml[ii].innerHTML));
+					var rowepisodeencourstextea = document.createElement("a");
+					rowepisodeencourstextea.appendChild(document.createTextNode("Episode "+elerowxml[ii].innerHTML));
+					var rowepisodeencourstitre =rowepisodeencours.getElementsByClassName("elementTitre")[0];
+					rowepisodeencourstitre.appendChild(rowepisodeencourstextea);
 				}
 				// alert("|"+elerowxml[ii].nodeName+"|");
 
@@ -217,8 +265,11 @@ function listeepisodesfonction() {
 			if (numsaisonprev - numsaison < 0) {
 				listepisodesserieencours.appendChild(rowsaisonencours);
 				var rowsaisonencours = listepisodesserieencours.getElementsByClassName("rownsaison")[0].cloneNode(true);
+				rowsaisonencours.style.display = 'block';
 				var rowsaisonentexte = rowsaisonencours.children[0];
-				rowsaisonentexte.appendChild(document.createTextNode(numsaison));
+				var rowsaisonentextea = document.createElement("a");
+				rowsaisonentextea.appendChild(document.createTextNode("Saison "+numsaison));
+				rowsaisonentexte.appendChild(rowsaisonentextea);
 				numsaisonprev = numsaison;
 			}
 

@@ -4,21 +4,45 @@ body
   background-color:Beige;
 }
 
+.hide  {
+display:none;  
+}
 
 .bandeau  {
-  width:100%;
+/* width:100%;
   min-width:400px;
 	font-size: 12pt;
-	border-bottom:thin dotted;
+	border-bottom:thin dotted;*/
+	height:50px;
+padding:0;
+ margin:0;
+ list-style-type:none;
 }
 
 .elementsbandeau {
-  border: 1px solid Black;
-  background-color:Black
-	color:White;
-	padding:1%;
   }	
-
+  
+.bandeau li {
+ float:left; /*pour IE*/
+ border-left:1px solid black;
+ }
+ 
+.bandeau li a {
+ display:block;
+ float:left;   
+ width:100px;
+ line-height:50px; /*hauteur de l'image de fond*/
+ background:black url(images/noire-1.png) repeat-x;
+ color:#DCDCDC;
+ text-decoration:none;
+ text-align:center;
+ }
+ 
+.bandeau li a:hover {
+ background:black url(images/noire-2.png) repeat-x;
+ color:white;
+ } 
+ 
 .colonneGauche  {
 	/*float:left;*/
 	position:absolute;
@@ -42,6 +66,70 @@ body
  	margin-left:20%;
 /*	width:70%;*/
 	font-size: 10pt;
+	height: 300px;
+}
+
+
+.rownsaison {
+    /*background: #fff none repeat scroll 0 0;*/
+/*    width: 200px;*/
+	padding-right: 5%;
+}
+.rownsaison h4 {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #a90329 0%, #8f0222 44%, #6d0019 100%) repeat scroll 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 12px;
+	margin:0; 
+}
+.rownsaison h4:hover {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #cc002c 0%, #6d0019 100%) repeat scroll 0 0;
+}
+.rownsaison h4 a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 200px;
+}
+.rownsaison ul {
+    background: #fff none repeat scroll 0 0;
+    font-size: 13px;
+    height: 0;
+    /*line-height: 10px;*/
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    transition: height 1s ease 0s;
+}
+.rownsaison:hover ul {
+   height: 20px;
+}
+.rownsaison ul a {
+    color: #aaa;
+ /*   display: block;*/
+    margin-left: 20px;
+    text-decoration: none;
+/*    width: 200px;*/
+}
+.rownsaison li {
+    border-bottom: 1px solid #eee;
+}
+.rownsaison li:hover {
+    background: #eee none repeat scroll 0 0;
+}
+
+.rowepisode h5 {
+	margin:0; 
+}
+.rowepisode li
+{
+display: inline-block;
+ /*   width: 150px;*/
+list-style-type: none;
+padding-right: 5px;
 }
 
 .nom {
@@ -77,31 +165,40 @@ background:red;
 .elementslistepi{
 display:none;  
 }
-.elementslstEp {
-  display:none;
-	color:red;
+.elementsEp {
 }
-.elementslstEpserie {
-	display:none
+.elementTitre {
+	display:none;
+	width: 15%;
 }
-.elementslstEpnum_saison {
+.elementEpserie {
+	display:none;
+}
+.elementEpnum_saison {
 	color:Fuchsia;
+		display:none;
 }
-.elementslstEpnum_episodes {
+.elementEpnum_episodes {
 	color:Gray;
+		display:none;
 }
-.elementslstEpsequentiel {
+.elementEpsequentiel {
 	color:Bisque;
+		width: 10px;
 }
-.elementslstEpnom {
+.elementEpnom {
 	color:LightBlue;
+	width: 40%;
 }
-.elementslstEpairdate {
+.elementEpairdate {
 	color:BlueViolet;
+		width: 15%;
 }
-.elementslstEpencours {
+.elementEpencours {
 	color:Pink;
+		width: 15px;
 }
-.elementslstEptimestamp_completer {
+.elementEptimestamp_completer {
 	color:Salmon;
+		width: 15%;
 }
