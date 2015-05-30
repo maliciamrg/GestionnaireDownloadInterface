@@ -11,6 +11,10 @@ document.getElementsByClassName("listepisodesserie")[0].getElementsByClassName("
 document.getElementsByClassName("listepisodesserie")[0].getElementsByClassName("rownsaison")[0].getElementsByClassName("rowepisode")[0].style.display = "none";
 document.getElementById("infoserie").style.display = 'none';
 document.getElementById("listepisodes").style.display = 'none';
+document.getElementById("listhash").style.display = 'none';
+document.getElementById("ListeQuestion").style.display = 'none';
+
+
 
 // creation bandeau haut
 // var elementsbandeau = document.createElement("li");
