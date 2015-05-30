@@ -17,9 +17,9 @@ mysql_select_db("seriedownload",$dblink);
 //on lance la requete
 $query = "";
 switch ($action) {
-case "reponseQuestion":
-$query = "";
-break;
+	case "reponseQuestion":
+		$query = "UPDATE question SET champsreponse = \"" . $val . "\" WHERE champsquestion = \"" . $key . "\"";
+		break;
     case "InfoSerie":
         $query = "SELECT * FROM series WHERE nom = \"" . $key . "\"";
         break;
