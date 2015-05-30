@@ -1,4 +1,4 @@
-var local = true;
+var local = false;
 var xhr = new XMLHttpRequest();
 var xhrep = new XMLHttpRequest();
 var xhrep2 = new XMLHttpRequest();
