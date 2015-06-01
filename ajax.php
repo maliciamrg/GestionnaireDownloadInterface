@@ -1,7 +1,7 @@
 <?php
 $action = $_GET["action"];
 $key =  $_GET["key"];
-$val $_GET["val"];
+$val = $_GET["val"];
 //echo "<".htmlentities($key).">\n";
 //echo "</" .htmlentities($key).">\n";
 
