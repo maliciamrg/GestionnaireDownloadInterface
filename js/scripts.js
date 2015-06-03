@@ -9,12 +9,9 @@ var elementsmenulistfonction = infoseriefonction;
 document.getElementsByClassName("listepisodesserie")[0].style.display = "none"
 document.getElementsByClassName("listepisodesserie")[0].getElementsByClassName("rownsaison")[0].style.display = "none";
 document.getElementsByClassName("listepisodesserie")[0].getElementsByClassName("rownsaison")[0].getElementsByClassName("rowepisode")[0].style.display = "none";
-document.getElementById("infoserie").style.display = 'none';
-document.getElementById("listepisodes").style.display = 'none';
-document.getElementById("listhash").style.display = 'none';
-document.getElementById("ListeQuestion").style.display = 'none';
-
-
+document.getElementById("Series").style.display = 'none';
+document.getElementById("Questions").style.display = 'none';
+document.getElementById("Hash").style.display = 'none';
 
 // creation bandeau haut
 // var elementsbandeau = document.createElement("li");
@@ -25,7 +22,7 @@ document.getElementById("ListeQuestion").style.display = 'none';
 var elementsbandeau = document.getElementsByClassName("elementsbandeau")[0];
 elementsbandeau.style.display = 'none';
 
-/*elements menus*/
+/* elements menus */
 var elementsbandeauSeries = elementsbandeau.cloneNode(true);
 elementsbandeauSeries.style.display = 'block';
 var elementsbandeauSeriesa = document.createElement("a");
@@ -58,18 +55,41 @@ elementsbandeauGitPull.appendChild(elementsbandeauGitPulla);
 elementsbandeauGitPull.addEventListener('click', elementsbandeauGitPullfonction, false);
 document.getElementById("bandeauhaut").appendChild(elementsbandeauGitPull);
 
-// creation liste serie
-var Action = encodeURIComponent("ListeSeries"), Key = encodeURIComponent("null");
-xhr.open('GET', 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key);
-if (local == true) {
-	xhr.open('GET', 'listeseries.xml');
-}
-xhr.addEventListener('readystatechange', listeSerieFonction, false);
-xhr.send(null);
+function elementsbandeauSeriesfonction() {
+	document.getElementById("Series").style.display = 'block';
+	document.getElementById("Questions").style.display = 'none';
+	document.getElementById("Hash").style.display = 'none';
 
-function elementsbandeauSeriesfonction(){}
-function elementsbandeauQuestionsfonction(){}
-function elementsbandeauHashfonction() {}
+	// creation liste serie
+	var Action = encodeURIComponent("ListeSeries"), Key = encodeURIComponent("null");
+	xhr.open('GET', 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key);
+	if (local == true) {
+		xhr.open('GET', 'listeseries.xml');
+	}
+	xhr.addEventListener('readystatechange', listeSerieFonction, false);
+	xhr.send(null);
+
+}
+function elementsbandeauQuestionsfonction() {
+	ListeQuestion
+	document.getElementById("Series").style.display = 'none';
+	document.getElementById("Questions").style.display = 'block';
+	document.getElementById("Hash").style.display = 'none';
+
+	// creation Liste Question
+	var Action = encodeURIComponent("ListeQuestion"), Key = encodeURIComponent("null");
+	xhr.open('GET', 'http://home.daisy-street.fr/ajax.php?action=' + Action + '&key=' + Key);
+	if (local == true) {
+		xhr.open('GET', 'listequestion.xml');
+	}
+	xhr.addEventListener('readystatechange', ListeQuestionFonction, false);
+	xhr.send(null);
+}
+function elementsbandeauHashfonction() {
+	document.getElementById("Series").style.display = 'none';
+	document.getElementById("Questions").style.display = 'none';
+	document.getElementById("Hash").style.display = 'block';
+}
 // saut git pull
 function elementsbandeauGitPullfonction(e) {
 	var Action = encodeURIComponent("exec"), Key = encodeURIComponent("cd /media/kitchen/source_code/GestionnaireDownloadInterface;git pull");
@@ -78,7 +98,6 @@ function elementsbandeauGitPullfonction(e) {
 	xhrgitpull.addEventListener('readystatechange', gitpullfonction, false);
 	xhrep.send(null);
 };
-
 
 function gitpullfonction() {
 	if (xhrgitpull.readyState === 4 && xhrgitpull.status === 200) {
@@ -194,14 +213,138 @@ function infoseriefonctiondetail() {
 
 }
 
+function ListeQuestionFonction() {
+	document.getElementById("ListeQuestion").style.display = 'block';
+	if (xhr.readyState === 4 && xhr.status === 200) {
+
+		document.getElementById("ListeQuestion").style.display = 'block';
+
+		var listeQuestionSerie = document.getElementsByClassName("listeQuestionSerie")[0];
+
+		var asupp = document.getElementById("listeQuestionSerieencours");
+		if (asupp != null) {
+			asupp.parentNode.removeChild(asupp);
+		}
+		/*
+		 * // alert(e.type + "." + e.target.innerText); var listepisodes =
+		 * document.createElement("ul"); listepisodes.id = "listepisodesserie";
+		 * listepisodes.className = "listepisodesserie";
+		 * 
+		 * var rownsaison = document.createElement('li'); var nbsaison = 0;
+		 */
+
+		var listeQuestionSerieencours = listeQuestionSerie.cloneNode(true);
+		listeQuestionSerieencours.style.display = 'block';
+		listeQuestionSerieencours.id = "listeQuestionSerieencours"
+
+		var rowQuestionencours = listeQuestionSerieencours.getElementsByClassName("Question")[0].cloneNode(true);
+		rowQuestionencours.style.display = 'none';
+		
+		var rowxml = xhr.responseXML.getElementsByTagName('row');
+		for (var i = 0, c = rowxml.length; i < c; i++) {
+
+			var rowReponseencours = rowQuestionencours.getElementsByClassName("Reponse")[0].cloneNode(true);
+			rowReponseencours.style.display = 'block';
+			/*
+			 * var numep = 0; var row = document.createElement("ul");
+			 * row.className = "elementEp";
+			 */
+			var elerowxml = rowxml[i].children;
+
+			var elerow = rowReponseencours.getElementsByClassName("elementChampReponse")[0];
+			elerow.style.display = 'none';
+			
+			for (var ii = 0, cc = elerowxml.length; ii < cc; ii++) {
+
+
+				if (elerow != null) {
+					/*
+					 * var elerow = document.createElement("li");
+					 * elerow.className = "elementslstEp" +
+					 * elerowxml[ii].nodeName;
+					 */
+					if (elerowxml[ii].childNodes.length > 0) {
+						elerow.appendChild(document.createTextNode(elerowxml[ii].innerHTML));// childNodes[0].nodeValue));
+					} else {
+						elerow.appendChild(document.createTextNode("_"));// childNodes[0].nodeValue));
+					}
+				}
+				/*
+				 * row.appendChild(elerow);
+				 */
+				if (elerowxml[ii].nodeName == "champsquestion") {
+					var elerowencours = rowReponseencours.getElementsByClassName("elementChampReponse")[0].cloneNode(true);
+					elerowencours.style.display = 'block';
+					elerowencours.appendChild(document.createTextNode(elerowxml[ii].innerHTML));
+				}
+				if (elerowxml[ii].nodeName == "question") {
+					var rowQuestionencourstextea = document.createElement("a");
+					rowQuestionencourstextea.appendChild(document.createTextNode("Question :" + elerowxml[ii].innerHTML));
+					var rowQuestionencourstitre = rowQuestionencours.children[0];
+					rowQuestionencourstitre.appendChild(rowQuestionencourstextea);
+				}
+				// alert("|"+elerowxml[ii].nodeName+"|");
+
+			}
+
+
+			rowQuestionencours.appendChild(rowReponseencours);
+
+			/*
+			 * if (nbsaison - numsaison < 0) { if (nbsaison > 0) {
+			 * listepisodes.appendChild(rownsaison); var rownsaison =
+			 * document.createElement('li'); }
+			 * 
+			 * var tits = document.createElement("h4");
+			 * tits.appendChild(document.createTextNode("saison " + numsaison));
+			 * rownsaison.appendChild(tits);
+			 * 
+			 * nbsaison = numsaison; }
+			 * 
+			 * var rowepisode = document.createElement("ul");
+			 * rowepisode.className = "rowepisode";
+			 * 
+			 * var ep = document.createElement("li"); var tite =
+			 * document.createElement("h5");
+			 * tite.appendChild(document.createTextNode("episode " + numep));
+			 * 
+			 * ep.appendChild(tite); ep.appendChild(row);
+			 * rowepisode.appendChild(ep); rownsaison.appendChild(rowepisode); //
+			 * rownsaison.appendChild(row);
+			 */
+		}
+		listeQuestionSerieencours.appendChild(rowQuestionencours);
+		document.getElementById("ListeQuestion").appendChild(listeQuestionSerieencours);
+		/*
+		 * 
+		 * listepisodes.appendChild(rownsaison);
+		 * 
+		 * document.getElementById("listepisodes").appendChild(listepisodes); /*
+		 * var myArraySerie = xhrep.responseXML.getElementsByTagName('nom');
+		 * //var myArraySerie = ['s1','s2','s3','s4']; for (var i = 0, c =
+		 * myArraySerie.length; i < c; i++) { var row =
+		 * document.createElement("TR");
+		 * row.appendChild(document.createTextNode(myArraySerie[i].childNodes[0].nodeValue));
+		 * row.addEventListener('click', myfonction, false);
+		 * document.getElementById("menu").appendChild(row); }
+		 */
+	} else if (xhr.readyState == 4 && xhr.status != 200) { // En cas
+		// d'erreur !
+
+		alert('Une erreur est survenue !\n\nCode :' + xhr.status + '\nTexte : ' + xhr.statusText);
+
+	}
+
+}
+
 function listeepisodesfonction() {
 	// alert("function()(2)");
 	if (xhrep2.readyState === 4 && xhrep2.status === 200) {
 
 		document.getElementById("listepisodes").style.display = 'block';
-		
-		var listepisodesserie =document.getElementsByClassName("listepisodesserie")[0];
-		
+
+		var listepisodesserie = document.getElementsByClassName("listepisodesserie")[0];
+
 		var asupp = document.getElementById("listepisodesserieencours");
 		if (asupp != null) {
 			asupp.parentNode.removeChild(asupp);
@@ -222,11 +365,11 @@ function listeepisodesfonction() {
 		listepisodesserieencours.id = "listepisodesserieencours"
 
 		var rowsaisonencours = listepisodesserieencours.getElementsByClassName("rownsaison")[0].cloneNode(true);
-		
+
 		var rowxml = xhrep2.responseXML.getElementsByTagName('row');
 		for (var i = 0, c = rowxml.length; i < c; i++) {
 
-			var rowepisodeencours  = rowsaisonencours.getElementsByClassName("rowepisode")[0].cloneNode(true);
+			var rowepisodeencours = rowsaisonencours.getElementsByClassName("rowepisode")[0].cloneNode(true);
 			rowepisodeencours.style.display = 'block';
 			/*
 			 * var numep = 0; var row = document.createElement("ul");
@@ -258,8 +401,8 @@ function listeepisodesfonction() {
 				}
 				if (elerowxml[ii].nodeName == "num_episodes") {
 					var rowepisodeencourstextea = document.createElement("a");
-					rowepisodeencourstextea.appendChild(document.createTextNode("Episode "+elerowxml[ii].innerHTML));
-					var rowepisodeencourstitre =rowepisodeencours.getElementsByClassName("elementTitre")[0];
+					rowepisodeencourstextea.appendChild(document.createTextNode("Episode " + elerowxml[ii].innerHTML));
+					var rowepisodeencourstitre = rowepisodeencours.getElementsByClassName("elementTitre")[0];
 					rowepisodeencourstitre.appendChild(rowepisodeencourstextea);
 				}
 				// alert("|"+elerowxml[ii].nodeName+"|");
@@ -272,7 +415,7 @@ function listeepisodesfonction() {
 				rowsaisonencours.style.display = 'block';
 				var rowsaisonentexte = rowsaisonencours.children[0];
 				var rowsaisonentextea = document.createElement("a");
-				rowsaisonentextea.appendChild(document.createTextNode("Saison "+numsaison));
+				rowsaisonentextea.appendChild(document.createTextNode("Saison " + numsaison));
 				rowsaisonentexte.appendChild(rowsaisonentextea);
 				numsaisonprev = numsaison;
 			}
