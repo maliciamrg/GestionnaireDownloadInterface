@@ -47,26 +47,31 @@ switch ($action) {
 
 if ($query != ""){
 	header('Content-type: text/xml'); 
-	echo "<?xml version=\"1.0\"?>\n";
-	echo "<".$action.">\n";
-	echo "<query>\n";
-	echo $query;
-	echo "</query>\n";
+	$txt = "";
+	$txt .= "<?xml version=\"1.0\"?>\n";
+	$txt .= "<".$action.">\n";
+	$txt .= "<query>\n";
+	$txt .= $query;
+	$txt .= "</query>\n";
 	//Mise en forme resultat
 	$result = mysql_query(html_entity_decode($query),$dblink) or die (mysql_error($dblink));
 	//On boucle sur le resultat
 	while ($row = mysql_fetch_array($result, MYSQL_NUM))
 	{
-		echo "<row>";
-					for ($i=0; $i<mysql_num_fields($result); $i++) {
+		$txt .= "<row>";
+		for ($i=0; $i<mysql_num_fields($result); $i++) 
+		{
 			$nomchamp = mysql_field_name($result,$i);
 			$text=htmlspecialchars($row[$i]);  /*preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $row[$i]);*/
-			echo "<".$nomchamp.">";
-			echo $text;
-			echo"</".$nomchamp.">\n";
+			$txt .= "<".$nomchamp.">";
+			$txt .= $text;
+			$txt .="</".$nomchamp.">\n";
 		}
-		echo "</row>";
+		$txt .= "</row>";
 	}
-	echo "</".$action.">\n";
+	$txt .= "</".$action.">\n";
+	echo $txt;
+	$myfile = fopen($action.".txt", "w") or die("Unable to open file!");
+	fwrite($myfile, $txt);
 }
 ?>
