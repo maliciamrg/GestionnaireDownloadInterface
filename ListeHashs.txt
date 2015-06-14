@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<ListeHashs>
+<query>
+SELECT * FROM hash where timestamp_termine is null </query>
+<row><hash>09a80ca43220c1c5ecddda4fccbcf00a7041bb6a</hash>
+<nom>Blackhat (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:42</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>0bab52816f1586cb2badf444a649a8f01ed30d5c</hash>
+<nom>Run All Night (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:42</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>15fb0afbec48cfa7bbafc6ff8b27d6ca29ac4a76</hash>
+<nom>The DUFF (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:43</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>20c6733eaa07a98b7ce2c78e79bb7697a8a4a9d5</hash>
+<nom>The SpongeBob Movie Sponge Out of Water (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:43</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>5045b32294a31d81d312375c1f299fd1e5d64e65</hash>
+<nom>Last Knights (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:43</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>50aa465d6ccc4837287af79964f89fc70cc9cc96</hash>
+<nom>San Andreas Quake (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:42</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>8c35aafaa303debd94aa691241ca0e5c98223023</hash>
+<nom>Focus (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:43</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>be4aa07856542f2dcd4e12362ef9f0a1ac88c358</hash>
+<nom>Chappie (2015)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:43</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>d60795899f8488e7e489ba642defbce1b23c9da0</hash>
+<nom>Kingsman The Secret Service (2014)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:43</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row><row><hash>d7fad1fedfbf571fc12d6fdd12a49eecf5fa9e3e</hash>
+<nom>Double Dragon (1994)</nom>
+<classification>autres</classification>
+<magnet></magnet>
+<timestamp_ajout>2015-06-09 11:21:43</timestamp_ajout>
+<timestamp_termine></timestamp_termine>
+</row></ListeHashs>

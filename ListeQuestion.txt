@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<ListeQuestion>
+<query>
+SELECT * FROM question where champsreponse is null </query>
+<row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.301.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E01 ep_047 The Calm.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E16 ep_301 the calm.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.302.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E02 ep_048 Sara.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E17 ep_302 sara.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.304.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E04 ep_050 The Magician.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E19 ep_304 the magician.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.305.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E05 ep_051 The Secret Origin of Felicity Smoak.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E20 ep_305 the secret origin of felicity smoak.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.306.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E06 ep_052 Guilty.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E21 ep_306 guilty.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.307.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E07 ep_053 Draw Back Your Bow.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E22 ep_307 draw back your bow.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.308.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E08 ep_054 The Brave and the Bold (2).mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E23 ep_308 the brave and the bold .mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.309.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E09 ep_055 The Climb.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E24 ep_309 the climb.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.310.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E10 ep_056 Left Behind.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E25 ep_310 left behind.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.311.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E11 ep_057 Midnight City.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E26 ep_311 midnight city.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.312.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E12 ep_058 Uprising.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E27 ep_312 uprising.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.313.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E13 ep_059 Canaries.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E28 ep_313 canaries.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.314.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E14 ep_060 The Return.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E29 ep_314 the return.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.315.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E15 ep_061 Nanda Parbat.mp4, /media/videoclub/unloading_dock//Arrow/Saison 11/Arrow S11E30 ep_315 nanda parbat.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.316.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E16 ep_062 The Offer.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E01 ep_316 the offer.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.317.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E17 ep_063 Suicidal Tendencies.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E02 ep_317 suicidal tendencies.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.318.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E18 ep_064 Public Enemy.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E03 ep_318 public enemy.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.319.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E19 ep_065 Broken Arrow.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E04 ep_319 broken arrow.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.320.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E20 ep_066 The Fallen.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E05 ep_320 the fallen.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.321.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E21 ep_067 Al Sah-him.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E06 ep_321 al sah him.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.322.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E22 ep_068 This Is Your Sword.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E07 ep_322 this is your sword.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Arrow Season 3 Complete x264-TJ -={SPARROW}=-/arrow.323.hdtv-lol.mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Arrow/Saison 03/Arrow S03E23 ep_069 My Name Is Oliver Queen.mp4, /media/videoclub/unloading_dock//Arrow/Saison 12/Arrow S12E08 ep_323 my name is oliver queen.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Detective Conan - 045 Remastered - The Face Pack Murder Case [Baaro][FB788B24].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Conan to Kid to Crystal Mother/Saison/Meitantei Conan Conan to Kid to Crystal Mother SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 04/Detective Conan S04E07 ep_045 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Detective Conan - 678 - The Nagasaki Mystery Theatre (Bakumatsu Case) [M-L][720p][878293AB].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Conan to Kid to Crystal Mother/Saison/Meitantei Conan Conan to Kid to Crystal Mother SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 21/Detective Conan S21E33 ep_678 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Detective Conan - 679 - The Nagasaki Mystery Theatre (Present Day Case) [M-L][720p][E8301F38].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Agasa-sensei no Chousenjou! Agasa vs Conan &amp; Shounen Tanteidan/Saison/Meitantei Conan Agasa-sensei no Chousenjou! Agasa vs Conan &amp; Shounen Tanteidan SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 21/Detective Conan S21E34 ep_679 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Detective_Conan_-_668_[Kaitou-Hubuki][720p][A8E85649].mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Agasa-sensei no Chousenjou! Agasa vs Conan &amp; Shounen Tanteidan/Saison/Meitantei Conan Agasa-sensei no Chousenjou! Agasa vs Conan &amp; Shounen Tanteidan SE01 ep_001 OVA.mp4, /media/videoclub/unloading_dock//Detective Conan/Saison 21/Detective Conan S21E23 ep_668 ova.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Detective_Conan_-_669_[Kaitou-Hubuki][720p][10bit][B5086168].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Joshikousei Tantei Suzuki Sonoko no Jikenbo/Saison/Meitantei Conan Joshikousei Tantei Suzuki Sonoko no Jikenbo SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 21/Detective Conan S21E24 ep_669 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Detective_Conan_-_674_[Kaitou-Hubuki][720p][10bit][6370EA8E].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa/Saison/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 21/Detective Conan S21E29 ep_674 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/Detective_Conan_-_675_[Kaitou-Hubuki][720p][10bit][3AB93C60].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa/Saison/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 21/Detective Conan S21E30 ep_675 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 201 - The Bad Fish Paradigm.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E01 ep_ The Bad Fish Paradigm.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E08 ep_201 ep  the bad fish paradigm.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 202 - The Codpiece Topology.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E02 ep_ The Codpiece Topology.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E09 ep_202 ep  the codpiece topology.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 203 - The Barbarian Sublimation.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E03 ep_ The Barbarian Sublimation.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E10 ep_203 ep  the barbarian sublimation.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 204 - The Griffin Equivalency.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E04 ep_ The Griffin Equivalency.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E11 ep_204 ep  the griffin equivalency.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 205 - The Euclid Alternative.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E05 ep_ The Euclid Alternative.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E12 ep_205 ep  the euclid alternative.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 206 - The Cooper-Nowitzki Theorem.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E06 ep_ The Cooper-Nowitzki Theorem.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E13 ep_206 ep  the cooper nowitzki theorem.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 207 - The Panty Pinata Polarization.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E07 ep_ The Panty Piñata Polarization.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E14 ep_207 ep  the panty pi?ata polarization.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 208 - The Lizard-spock Expansion.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E08 ep_ The Lizard-Spock Expansion.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E15 ep_208 ep  the lizard spock expansion.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 209 - The White Asparagus Triangulation.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E09 ep_ The White Asparagus Triangulation.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E16 ep_209 ep  the white asparagus triangulation.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 210 - The Vartabedian Conundrum.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E10 ep_ The Vartabedian Conundrum.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E17 ep_210 ep  the vartabedian conundrum.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 211 - The Bath Item Gift Hypothesis.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E11 ep_ The Bath Item Gift Hypothesis.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E18 ep_211 ep  the bath item gift hypothesis.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 212 - The Killer Robot Instability.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E12 ep_ The Killer Robot Instability.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E19 ep_212 ep  the killer robot instability.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 213 - The Friendship Algorithm.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E13 ep_ The Friendship Algorithm.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E20 ep_213 ep  the friendship algorithm.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 214 - The Financial Permeability.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E14 ep_ The Financial Permeability.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E21 ep_214 ep  the financial permeability.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 215 - The Maternal Capacitance.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E15 ep_ The Maternal Capacitance.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E22 ep_215 ep  the maternal capacitance.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 216 - The Cushion Saturation.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E16 ep_ The Cushion Saturation.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E23 ep_216 ep  the cushion saturation.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 217 - The Terminator Decoupling.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E17 ep_ The Terminator Decoupling.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E24 ep_217 ep  the terminator decoupling.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 218 - The Work Song Nanocluster.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E18 ep_ The Work Song Nanocluster.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 08/The Big Bang Theory S08E25 ep_218 ep  the work song nanocluster.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 220 - The Hofstadter Isotope.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E20 ep_ The Hofstadter Isotope.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 09/The Big Bang Theory S09E01 ep_220 ep  the hofstadter isotope.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 221 - The Vegas Renormalization.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E21 ep_ The Vegas Renormalization.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 09/The Big Bang Theory S09E02 ep_221 ep  the vegas renormalization.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 222 - The Classified Materials Turbulence.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E22 ep_ The Classified Materials Turbulence.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 09/The Big Bang Theory S09E03 ep_222 ep  the classified materials turbulence.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/The Big Bang Theory/The Big Bang Theory - 223 - The Monopolar Expedition.avi</question>
+<champsquestion>[/media/videoclub/unloading_dock/The Big Bang Theory/Saison 02/The Big Bang Theory S02E23 ep_ The Monopolar Expedition.avi, /media/videoclub/unloading_dock//The Big Bang Theory/Saison 09/The Big Bang Theory S09E04 ep_223 ep  the monopolar expedition.avi]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[HorribleSubs] Detective Conan - 760 [1080p].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan 16 Nin no Yougisha/Saison/Meitantei Conan 16 Nin no Yougisha SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 23/Detective Conan S23E37 ep_760 nin no yougisha se01 ep 001 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[HorribleSubs] Detective Conan - 760 [720p].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan 16 Nin no Yougisha/Saison/Meitantei Conan 16 Nin no Yougisha SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 23/Detective Conan S23E37 ep_760 nin no yougisha se01 ep 001 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[HorribleSubs] Detective Conan - 761 [720p].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Conan to Kid to Crystal Mother/Saison/Meitantei Conan Conan to Kid to Crystal Mother SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 23/Detective Conan S23E38 ep_761 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[HorribleSubs] Detective Conan - 762 [720p].mkv</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Joshikousei Tantei Suzuki Sonoko no Jikenbo/Saison/Meitantei Conan Joshikousei Tantei Suzuki Sonoko no Jikenbo SE01 ep_001 OVA.mkv, /media/videoclub/unloading_dock//Detective Conan/Saison 23/Detective Conan S23E39 ep_762 ova.mkv]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[usotsuki] Detective Conan 469-470 [RAW-720p]/[usotsuki] Detective Conan 469 'Kaitou Kid to yonmeiga (zempen)' [RAW-720p][B19856FD].mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Conan to Kid to Crystal Mother/Saison/Meitantei Conan Conan to Kid to Crystal Mother SE01 ep_001 OVA.mp4, /media/videoclub/unloading_dock//Detective Conan/Saison 16/Detective Conan S16E04 ep_469 ova.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[usotsuki] Detective Conan 469-470 [RAW-720p]/[usotsuki] Detective Conan 470 'Kaitou Kid to yonmeiga (kouhen)' [RAW-720p][FE0BECEB].mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa/Saison/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa SE01 ep_001 OVA.mp4, /media/videoclub/unloading_dock//Detective Conan/Saison 16/Detective Conan S16E05 ep_470 ova.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[usotsuki] Detective Conan 472 'Kudou Shin'ichi shounen no bouken (zempen) [RAW-720p][94729084].mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa/Saison/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa SE01 ep_001 OVA.mp4, /media/videoclub/unloading_dock//Detective Conan/Saison 16/Detective Conan S16E07 ep_472 ova.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[usotsuki] Detective Conan 473 'Kudou Shin'ichi shounen no bouken (kouhen) [RAW-720][BB5D0528].mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa/Saison/Meitantei Conan Hyouteki wa Kogoro! Shounen Tanteidan Maruhi Chousa SE01 ep_001 OVA.mp4, /media/videoclub/unloading_dock//Detective Conan/Saison 16/Detective Conan S16E08 ep_473 ova.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row><row><question>[chxdpl]\n impossible de choisir le nouveau nom \n/media/videoclub/unloading_dock/[usotsuki] Detective Conan 474 'Kisaki Eri-bengoshi no koi' [RAW-720p][F6EC5F65].mp4</question>
+<champsquestion>[/media/videoclub/unloading_dock/Meitantei Conan Joshikousei Tantei Suzuki Sonoko no Jikenbo/Saison/Meitantei Conan Joshikousei Tantei Suzuki Sonoko no Jikenbo SE01 ep_001 OVA.mp4, /media/videoclub/unloading_dock//Detective Conan/Saison 16/Detective Conan S16E09 ep_474 ova.mp4]</champsquestion>
+<champsreponse></champsreponse>
+</row></ListeQuestion>

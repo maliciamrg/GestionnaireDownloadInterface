@@ -1,0 +1,695 @@
+<?xml version="1.0"?>
+<ListeEpisodes>
+<query>
+SELECT * FROM episodes WHERE serie = "Arrow"</query>
+<row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>1</num_episodes>
+<nom>Pilot</nom>
+<airdate>2012-10-10</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E01 ep_001 Pilot.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>1</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>2</num_episodes>
+<nom>Honor_Thy_Father</nom>
+<airdate>2012-10-17</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E02 ep_002 Honor Thy Father.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>2</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>3</num_episodes>
+<nom>Lone_Gunmen</nom>
+<airdate>2012-10-24</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E03 ep_003 Lone Gunmen.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>3</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>4</num_episodes>
+<nom>An_Innocent_Man</nom>
+<airdate>2012-10-31</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E04 ep_004 An Innocent Man.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>4</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>5</num_episodes>
+<nom>Damaged</nom>
+<airdate>2012-11-07</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E05 ep_005 Damaged.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>5</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>6</num_episodes>
+<nom>Legacies</nom>
+<airdate>2012-11-14</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E06 ep_006 Legacies.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>6</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>7</num_episodes>
+<nom>Muse_of_Fire</nom>
+<airdate>2012-11-28</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E07 ep_007 Muse of Fire.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>7</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>8</num_episodes>
+<nom>Vendetta</nom>
+<airdate>2012-12-05</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E08 ep_008 Vendetta.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>8</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>9</num_episodes>
+<nom>Year_s_End</nom>
+<airdate>2012-12-12</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E09 ep_009 Year's End.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>9</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>10</num_episodes>
+<nom>Burned</nom>
+<airdate>2013-01-16</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E10 ep_010 Burned.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>10</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>11</num_episodes>
+<nom>Trust_But_Verify</nom>
+<airdate>2013-01-23</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E11 ep_011 Trust But Verify.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>11</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>12</num_episodes>
+<nom>Vertigo</nom>
+<airdate>2013-01-30</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E12 ep_012 Vertigo.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>12</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>13</num_episodes>
+<nom>Betrayal</nom>
+<airdate>2013-02-06</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E13 ep_013 Betrayal.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>13</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>14</num_episodes>
+<nom>The_Odyssey</nom>
+<airdate>2013-02-13</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E14 ep_014 The Odyssey.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>14</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>15</num_episodes>
+<nom>Dodger</nom>
+<airdate>2013-02-20</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E15 ep_015 Dodger.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>15</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>16</num_episodes>
+<nom>Dead_to_Rights</nom>
+<airdate>2013-02-27</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E16 ep_016 Dead to Rights.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>16</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>17</num_episodes>
+<nom>The_Huntress_Returns</nom>
+<airdate>2013-03-20</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E17 ep_017 The Huntress Returns.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>17</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>18</num_episodes>
+<nom>Salvation</nom>
+<airdate>2013-03-27</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E18 ep_018 Salvation.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>18</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>19</num_episodes>
+<nom>Unfinished_Business</nom>
+<airdate>2013-04-03</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E19 ep_019 Unfinished Business.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>19</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>20</num_episodes>
+<nom>Home_Invasion</nom>
+<airdate>2013-04-24</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E20 ep_020 Home Invasion.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>20</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>21</num_episodes>
+<nom>The_Undertaking</nom>
+<airdate>2013-05-01</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E21 ep_021 The Undertaking.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>21</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>22</num_episodes>
+<nom>Darkness_on_the_Edge_of_Town</nom>
+<airdate>2013-05-08</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E22 ep_022 Darkness on the Edge of Town.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>22</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>1</num_saison>
+<num_episodes>23</num_episodes>
+<nom>Sacrifice</nom>
+<airdate>2013-05-15</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 01/Arrow S01E23 ep_023 Sacrifice.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>23</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>1</num_episodes>
+<nom>City_of_Heroes</nom>
+<airdate>2013-10-09</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E01 ep_024 City of Heroes.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>24</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>2</num_episodes>
+<nom>Identity</nom>
+<airdate>2013-10-16</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E02 ep_025 Identity.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>25</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>3</num_episodes>
+<nom>Broken_Dolls</nom>
+<airdate>2013-10-23</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E03 ep_026 Broken Dolls.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>26</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>4</num_episodes>
+<nom>Crucible</nom>
+<airdate>2013-10-30</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E04 ep_027 Crucible.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>27</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>5</num_episodes>
+<nom>League_of_Assassins</nom>
+<airdate>2013-11-06</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E05 ep_028 League of Assassins.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>28</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>6</num_episodes>
+<nom>Keep_Your_Enemies_Closer</nom>
+<airdate>2013-11-13</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E06 ep_029 Keep Your Enemies Closer.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>29</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>7</num_episodes>
+<nom>State_V._Queen</nom>
+<airdate>2013-11-20</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E07 ep_030 State V. Queen.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>30</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>8</num_episodes>
+<nom>The_Scientist</nom>
+<airdate>2013-12-04</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E08 ep_031 The Scientist.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>31</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>9</num_episodes>
+<nom>Three_Ghosts</nom>
+<airdate>2013-12-11</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E09 ep_032 Three Ghosts.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>32</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>10</num_episodes>
+<nom>Blast_Radius</nom>
+<airdate>2014-01-15</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E10 ep_033 Blast Radius.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>33</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>11</num_episodes>
+<nom>Blind_Spot</nom>
+<airdate>2014-01-22</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E11 ep_034 Blind Spot.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>34</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>12</num_episodes>
+<nom>Tremors</nom>
+<airdate>2014-01-29</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E12 ep_035 Tremors.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>35</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>13</num_episodes>
+<nom>Heir_to_the_Demon</nom>
+<airdate>2014-02-05</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E13 ep_036 Heir to the Demon.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>36</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>14</num_episodes>
+<nom>Time_of_Death</nom>
+<airdate>2014-02-26</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E14 ep_037 Time of Death.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>37</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>15</num_episodes>
+<nom>The_Promise</nom>
+<airdate>2014-03-05</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E15 ep_038 The Promise.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>38</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>16</num_episodes>
+<nom>Suicide_Squad</nom>
+<airdate>2014-03-19</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E16 ep_039 Suicide Squad.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>39</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>17</num_episodes>
+<nom>Birds_of_Prey</nom>
+<airdate>2014-03-26</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E17 ep_040 Birds of Prey.mkv</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>40</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>18</num_episodes>
+<nom>Deathstroke</nom>
+<airdate>2014-04-02</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E18 ep_041 Deathstroke.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>41</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>19</num_episodes>
+<nom>The_Man_Under_the_Hood</nom>
+<airdate>2014-04-16</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E19 ep_042 The Man Under the Hood.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>42</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>20</num_episodes>
+<nom>Seeing_Red</nom>
+<airdate>2014-04-23</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E20 ep_043 Seeing Red.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>43</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>21</num_episodes>
+<nom>City_of_Blood</nom>
+<airdate>2014-04-30</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E21 ep_044 City of Blood.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>44</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>22</num_episodes>
+<nom>Streets_of_Fire</nom>
+<airdate>2014-05-07</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E22 ep_045 Streets of Fire.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>45</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>2</num_saison>
+<num_episodes>23</num_episodes>
+<nom>Unthinkable</nom>
+<airdate>2014-05-14</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 02/Arrow S02E23 ep_046 Unthinkable.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>46</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>1</num_episodes>
+<nom>The_Calm</nom>
+<airdate>2014-10-08</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E01 ep_047 The Calm.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>47</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>2</num_episodes>
+<nom>Sara</nom>
+<airdate>2014-10-15</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E02 ep_048 Sara.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>48</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>3</num_episodes>
+<nom>Corto_Maltese</nom>
+<airdate>2014-10-22</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E03 ep_049 Corto Maltese.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>49</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>4</num_episodes>
+<nom>The_Magician</nom>
+<airdate>2014-10-29</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E04 ep_050 The Magician.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>50</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>5</num_episodes>
+<nom>The_Secret_Origin_of_Felicity_Smoak</nom>
+<airdate>2014-11-05</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E05 ep_051 The Secret Origin of Felicity Smoak.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>51</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>6</num_episodes>
+<nom>Guilty</nom>
+<airdate>2014-11-12</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E06 ep_052 Guilty.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>52</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>7</num_episodes>
+<nom>Draw_Back_Your_Bow</nom>
+<airdate>2014-11-19</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E07 ep_053 Draw Back Your Bow.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>53</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>8</num_episodes>
+<nom>The_Brave_and_the_Bold__2_</nom>
+<airdate>2014-12-03</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E08 ep_054 The Brave and the Bold (2).avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>54</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>9</num_episodes>
+<nom>The_Climb</nom>
+<airdate>2014-12-10</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-20</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E09 ep_055 The Climb.avi</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>55</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>10</num_episodes>
+<nom>Left_Behind</nom>
+<airdate>2015-01-21</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-17</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E10 ep_056 Left Behind.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>56</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>11</num_episodes>
+<nom>Midnight_City</nom>
+<airdate>2015-01-28</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-17</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E11 ep_057 Midnight City.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>57</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>12</num_episodes>
+<nom>Uprising</nom>
+<airdate>2015-02-04</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-17</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E12 ep_058 Uprising.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>58</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>13</num_episodes>
+<nom>Canaries</nom>
+<airdate>2015-02-11</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-03-17</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E13 ep_059 Canaries.mp4</chemin_complet>
+<freezesearchuntil></freezesearchuntil>
+<sequentiel>59</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>14</num_episodes>
+<nom>The_Return</nom>
+<airdate>2015-02-18</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-04-11</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E14 ep_060 The Return.mp4</chemin_complet>
+<freezesearchuntil>2015-04-11</freezesearchuntil>
+<sequentiel>60</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>15</num_episodes>
+<nom>Nanda_Parbat</nom>
+<airdate>2015-02-25</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-04-11</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E15 ep_061 Nanda Parbat.mp4</chemin_complet>
+<freezesearchuntil>2015-04-11</freezesearchuntil>
+<sequentiel>61</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>16</num_episodes>
+<nom>The_Offer</nom>
+<airdate>2015-03-18</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-04-12</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E16 ep_062 The Offer.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>62</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>17</num_episodes>
+<nom>Suicidal_Tendencies</nom>
+<airdate>2015-03-25</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-04-12</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E17 ep_063 Suicidal Tendencies.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>63</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>18</num_episodes>
+<nom>Public_Enemy</nom>
+<airdate>2015-04-01</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-04-12</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E18 ep_064 Public Enemy.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>64</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>19</num_episodes>
+<nom>Broken_Arrow</nom>
+<airdate>2015-04-15</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-04-18</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E19 ep_065 Broken Arrow.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>65</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>20</num_episodes>
+<nom>The_Fallen</nom>
+<airdate>2015-04-22</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-05-16</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E20 ep_066 The Fallen.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>66</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>21</num_episodes>
+<nom>Al_Sah-him</nom>
+<airdate>2015-04-29</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-05-16</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E21 ep_067 Al Sah-him.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>67</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>22</num_episodes>
+<nom>This_Is_Your_Sword</nom>
+<airdate>2015-05-06</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-05-16</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E22 ep_068 This Is Your Sword.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>68</sequentiel>
+</row><row><serie>Arrow</serie>
+<num_saison>3</num_saison>
+<num_episodes>23</num_episodes>
+<nom>My_Name_Is_Oliver_Queen</nom>
+<airdate>2015-05-13</airdate>
+<encours>0</encours>
+<timestamp_completer>2015-05-16</timestamp_completer>
+<chemin_complet>/media/videoclub/serie/Arrow/Saison 03/Arrow S03E23 ep_069 My Name Is Oliver Queen.mkv</chemin_complet>
+<freezesearchuntil>2015-04-19</freezesearchuntil>
+<sequentiel>69</sequentiel>
+</row></ListeEpisodes>
